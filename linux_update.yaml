@@ -1,6 +1,6 @@
 ---
 - name: linux update
-  hosts: AlmaLinux9
+  hosts: linux nodes
   tasks:
     - name: update
       yum:
