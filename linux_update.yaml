@@ -1,6 +1,6 @@
 ---
 - name: linux update
-  hosts: linux nodes
+  hosts: "linux nodes"
   tasks:
     - name: update
       yum:
