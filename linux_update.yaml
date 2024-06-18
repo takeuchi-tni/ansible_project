@@ -1,0 +1,8 @@
+---
+- name: linux update
+  hosts: AlmaLinux9
+  tasks:
+    - name: update
+      yum:
+        name: "*"
+        state: latest
