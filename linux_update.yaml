@@ -4,5 +4,6 @@
   tasks:
     - name: update
       yum:
-        name: "*"
+        name: '*'
         state: latest
+      become: yes
