@@ -1,0 +1,9 @@
+---
+- name: make file
+  hosts: localhost
+  become: true
+  tasks:
+    - name: a
+      file:
+        path: /home/tnadmin/test.txt
+        state: touch
