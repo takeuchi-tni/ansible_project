@@ -3,7 +3,7 @@
   hosts: localhost
   become: true
   tasks:
-    - name: a
+    - name: mkdir
       file:
         path: /home/tnadmin/test.txt
         state: touch
